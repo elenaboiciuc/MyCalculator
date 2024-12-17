@@ -27,7 +27,7 @@ jobs:
 
       - name: Build with PyInstaller
         run: |
-          pyinstaller --noconfirm --onefile --windowed myfirstcalculator/guis/main.py
+          pyinstaller --noconfirm --onefile --windowed guis/main.py
           # Use `--windowed` if your app has a GUI; otherwise, remove it
           # If you have a custom .spec file, specify it like: pyinstaller your_spec_file.spec
 
