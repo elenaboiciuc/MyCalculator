@@ -1,4 +1,4 @@
-# Form implementation generated from reading ui file 'd:\Python\guis\calculator\calculator.ui'
+# Form implementation generated from reading ui file 'calculator.ui'
 #
 # Created by: PyQt6 UI code generator 6.7.1
 #
@@ -12,134 +12,403 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(204, 293)
+        MainWindow.resize(201, 354)
+        MainWindow.setStyleSheet("background-color: rgb(178, 190, 181);")
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
+        self.centralwidget.setStyleSheet("")
         self.centralwidget.setObjectName("centralwidget")
-
         self.number7 = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.number7.setGeometry(QtCore.QRect(0, 50, 51, 51))
+        self.number7.setGeometry(QtCore.QRect(0, 100, 51, 51))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(-1)
         self.number7.setFont(font)
+        self.number7.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
         self.number7.setObjectName("number7")
-
         self.number8 = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.number8.setGeometry(QtCore.QRect(50, 50, 51, 51))
+        self.number8.setGeometry(QtCore.QRect(50, 100, 51, 51))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(-1)
         self.number8.setFont(font)
+        self.number8.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
         self.number8.setObjectName("number8")
-
         self.number5 = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.number5.setGeometry(QtCore.QRect(50, 100, 51, 51))
+        self.number5.setGeometry(QtCore.QRect(50, 150, 51, 51))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(-1)
         self.number5.setFont(font)
+        self.number5.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
         self.number5.setObjectName("number5")
-
         self.number1 = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.number1.setGeometry(QtCore.QRect(0, 150, 51, 51))
+        self.number1.setGeometry(QtCore.QRect(0, 200, 51, 51))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(-1)
         self.number1.setFont(font)
+        self.number1.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
         self.number1.setObjectName("number1")
-
         self.number2 = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.number2.setGeometry(QtCore.QRect(50, 150, 51, 51))
+        self.number2.setGeometry(QtCore.QRect(50, 200, 51, 51))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(-1)
         self.number2.setFont(font)
+        self.number2.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
         self.number2.setObjectName("number2")
-
         self.number6 = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.number6.setGeometry(QtCore.QRect(100, 100, 51, 51))
+        self.number6.setGeometry(QtCore.QRect(100, 150, 51, 51))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(-1)
         self.number6.setFont(font)
+        self.number6.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
         self.number6.setObjectName("number6")
-
         self.number3 = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.number3.setGeometry(QtCore.QRect(100, 150, 51, 51))
+        self.number3.setGeometry(QtCore.QRect(100, 200, 51, 51))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(-1)
         self.number3.setFont(font)
+        self.number3.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
         self.number3.setObjectName("number3")
-
         self.number9 = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.number9.setGeometry(QtCore.QRect(100, 50, 51, 51))
+        self.number9.setGeometry(QtCore.QRect(100, 100, 51, 51))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(-1)
         self.number9.setFont(font)
+        self.number9.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
         self.number9.setObjectName("number9")
-
         self.number4 = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.number4.setGeometry(QtCore.QRect(0, 100, 51, 51))
+        self.number4.setGeometry(QtCore.QRect(0, 150, 51, 51))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(-1)
         self.number4.setFont(font)
+        self.number4.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
         self.number4.setObjectName("number4")
-
         self.number0 = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.number0.setGeometry(QtCore.QRect(50, 200, 51, 51))
+        self.number0.setGeometry(QtCore.QRect(50, 250, 51, 51))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(-1)
         self.number0.setFont(font)
+        self.number0.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
         self.number0.setObjectName("number0")
-
         self.Devide = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.Devide.setGeometry(QtCore.QRect(150, 200, 51, 51))
+        self.Devide.setGeometry(QtCore.QRect(150, 250, 51, 51))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(-1)
         self.Devide.setFont(font)
+        self.Devide.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
         self.Devide.setObjectName("Devide")
-
         self.Multip = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.Multip.setGeometry(QtCore.QRect(150, 150, 51, 51))
+        self.Multip.setGeometry(QtCore.QRect(150, 200, 51, 51))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(-1)
         self.Multip.setFont(font)
+        self.Multip.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
         self.Multip.setObjectName("Multip")
-
         self.Dif = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.Dif.setGeometry(QtCore.QRect(150, 100, 51, 51))
+        self.Dif.setGeometry(QtCore.QRect(150, 150, 51, 51))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(-1)
         self.Dif.setFont(font)
+        self.Dif.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
         self.Dif.setObjectName("Dif")
-
         self.Sum = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.Sum.setGeometry(QtCore.QRect(150, 50, 51, 51))
+        self.Sum.setGeometry(QtCore.QRect(150, 100, 51, 51))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(-1)
         self.Sum.setFont(font)
+        self.Sum.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
         self.Sum.setObjectName("Sum")
-
         self.delete_button = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.delete_button.setGeometry(QtCore.QRect(0, 200, 51, 51))
+        self.delete_button.setGeometry(QtCore.QRect(0, 250, 51, 51))
         font = QtGui.QFont()
-        font.setPointSize(15)
+        font.setPointSize(-1)
         font.setBold(True)
         self.delete_button.setFont(font)
+        self.delete_button.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
         self.delete_button.setObjectName("delete_button")
-
         self.equal_button = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.equal_button.setGeometry(QtCore.QRect(100, 200, 51, 51))
+        self.equal_button.setGeometry(QtCore.QRect(100, 250, 51, 51))
         font = QtGui.QFont()
-        font.setPointSize(20)
+        font.setPointSize(-1)
         self.equal_button.setFont(font)
+        self.equal_button.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
         self.equal_button.setObjectName("equal_button")
-
         self.lineEdit = QtWidgets.QLineEdit(parent=self.centralwidget)
         self.lineEdit.setGeometry(QtCore.QRect(0, 0, 201, 51))
         font = QtGui.QFont()
-        font.setPointSize(15)
+        font.setPointSize(-1)
         self.lineEdit.setFont(font)
+        self.lineEdit.setStyleSheet("background-color: rgb(204, 214, 202); /* Light sage green */ color: #2f4f4f; /* Dark slate gray */ font-size: 24px; border: none; padding: 10px")
         self.lineEdit.setAlignment(QtCore.Qt.AlignmentFlag.AlignRight|QtCore.Qt.AlignmentFlag.AlignTrailing|QtCore.Qt.AlignmentFlag.AlignVCenter)
         self.lineEdit.setObjectName("lineEdit")
-
+        self.open_parenthesis = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.open_parenthesis.setGeometry(QtCore.QRect(0, 50, 51, 51))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.open_parenthesis.setFont(font)
+        self.open_parenthesis.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
+        self.open_parenthesis.setObjectName("open_parenthesis")
+        self.close_parenthesis = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.close_parenthesis.setGeometry(QtCore.QRect(50, 50, 51, 51))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.close_parenthesis.setFont(font)
+        self.close_parenthesis.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
+        self.close_parenthesis.setObjectName("close_parenthesis")
+        self.backspace = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.backspace.setGeometry(QtCore.QRect(150, 50, 51, 51))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.backspace.setFont(font)
+        self.backspace.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
+        self.backspace.setObjectName("backspace")
+        self.point = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.point.setGeometry(QtCore.QRect(100, 50, 51, 51))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.point.setFont(font)
+        self.point.setStyleSheet("QPushButton {\n"
+"    background-color: rgb(176, 196, 182); /* Medium sage green */\n"
+"    color: #2f4f4f; /* Dark slate gray */\n"
+"    font-size: 18px;\n"
+"    border: 1px solid rgb(204, 214, 202); /* Light sage green */\n"
+"}\n"
+"QPushButton:hover {\n"
+"    background-color: rgb(163, 179, 162); /* Darker sage green */\n"
+"}\n"
+"QPushButton:pressed {\n"
+"    background-color: rgb(145, 167, 145); /* Darkest sage green */\n"
+"}\n"
+"")
+        self.point.setObjectName("point")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 204, 22))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 201, 33))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)
@@ -169,3 +438,17 @@ class Ui_MainWindow(object):
         self.delete_button.setText(_translate("MainWindow", "DEL"))
         self.equal_button.setText(_translate("MainWindow", "="))
         self.lineEdit.setText(_translate("MainWindow", "0"))
+        self.open_parenthesis.setText(_translate("MainWindow", "("))
+        self.close_parenthesis.setText(_translate("MainWindow", ")"))
+        self.backspace.setText(_translate("MainWindow", "←"))
+        self.point.setText(_translate("MainWindow", "."))
+
+
+if __name__ == "__main__":
+    import sys
+    app = QtWidgets.QApplication(sys.argv)
+    MainWindow = QtWidgets.QMainWindow()
+    ui = Ui_MainWindow()
+    ui.setupUi(MainWindow)
+    MainWindow.show()
+    sys.exit(app.exec())
